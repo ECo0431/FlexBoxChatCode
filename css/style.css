@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.logo-texte, .logo-chat, .logo-soleil {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-texte {
+  color: #1ea1f0;
+  font-size: 1.2em;
+}
+
+.logo-chat {
+  margin-top: 20px;
+  font-size: 2em;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+ul {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  font-family: Arial;
+  margin: 10px;
+}
+
+h2 {
+  color: #1ea1f0;
+  font-family: Arial;
+  margin: 10px;
+}
+
+h3 {
+  color: #636a71;
+  font-family: Arial;
+  margin: 10px;
+}
+
+a {
+  color: #636a71;
+  font-family: Arial;
+  margin: 10px;
+}
+
+a:hover {
+  color: #1ea1f0;
+  text-decoration: underline;
+}
+
+.plus {
+  color: #636a71;
+  font-family: Arial;
+  margin: 10px;
+}
+
+.plus:hover {
+  color: #17b85e;
+}
+
+.article-flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-flexbox {
+  margin: 10px;
+  width: 300px;
+}
+
+.box-exemple {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #2a2d2f;
+  padding: 20px;
+  border-radius: 10px;
+}
+.box-exemple__template {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 1px solid #1ea1f0;
+  display: flex;
+}
+.box-exemple__template--box2 {
+  background-color: #1ea1f0;
+  width: 25px;
+  height: 25px;
+}
+.box-exemple__template--box3 {
+  background-color: white;
+  width: 25px;
+  height: 25px;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.space-evenly {
+  justify-content: space-evenly;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.justify-content0 {
+  justify-content: flex-start;
+}
+
+.justify-content1 {
+  justify-content: center;
+}
+
+.justify-content2 {
+  justify-content: flex-end;
+}
+
+.align-items0 {
+  align-items: flex-start;
+}
+
+.align-items1 {
+  align-items: center;
+}
+
+.align-items2 {
+  align-items: flex-end;
+}
+
+.ok {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+
+/*# sourceMappingURL=style.css.map */
